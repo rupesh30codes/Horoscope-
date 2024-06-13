@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #423A38;
+    min-height: 100vh;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    background-color: #423A38;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+}
+
+.date {
+    position: absolute;
+    right: 0;
+    top: 30px;
+    color: wheat;
+}
+
+.date p {
+    font-size: 20px;
+}
+
+.date span {
+    border-bottom: 1px solid white;
+    padding-bottom: 2px;
+}
+
+.heading {
+    text-align: center;
+    border-top: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+    margin-top: 1rem;
+    width: 50%;
+    color: white;
+    padding: 10px;
+}
+
+.para {
+    color: white;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.zodiac,
+.zodiac-two,
+.zodiac-three {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.zodiac .zodiac-sign img,
+.zodiac-two .zodiac-sign img,
+.zodiac-three .zodiac-sign img {
+    height: 300px;
+    width: 300px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.zodiac-sign h2 {
+    color: white;
+    text-align: center;
+  
+}
+.zodiac-sign p{
+    padding: 10px;
+    color: white;
+}
+
+.zodiac-sign {
+    margin: 0 10px;
+}
+.detail-page {
+    text-align: center;
+}
+
+.detail-page img {
+    height: 500px;
+    width: 500px;
+    object-fit: contain;
+}
+
+#horoscope-text {
+    color: white;
+}
