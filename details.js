@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
     }
 
-    const imagePath = `zodiac-images/${sign}.png`;
+    const imagePath = `${sign}.png`;
     
     const zodiacImg = document.getElementById('zodiac-img');
     zodiacImg.src = imagePath;
